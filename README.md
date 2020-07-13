@@ -1,8 +1,8 @@
 # Goodreads Scraper
 
-A python script for extraacting a collection of user ratings and scrapes title, author name, average rating, total number of ratings, total number of reviews for each book ID.
+A python script for extracting a collection of user ratings for all the books in the read shelf. It also scrapes title, author name, average rating, total number of ratings, total number of reviews, and genres for each book ID.
 
-Since this code is written for a specific HTML structure of the website, any updates to the structure can break this code. 
+Since this code is written for a specific HTML structure of the website, any updates to the structure would require modifications to the code. 
 
 
 ## Requirements
