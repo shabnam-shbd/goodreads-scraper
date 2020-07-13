@@ -142,15 +142,15 @@ def remap_ratings(data, dict_ratings):
     
     Args:
     data(object): dataframe of user and books
-    dict_ratings(dictionary): dictionary of rating labels ex: {{'col1':{1:'A',2:'B'}}
+    dict_ratings(dictionary): dictionary of rating labels ex: {{'col1':{1:'A', 2:'B'}}
     
     Returns:
     Pandas DataFrmae(object): dataframe of user and books with ratings remapped
     """
     
-    for field,values in dict_ratings.items():
+    for field, values in dict_ratings.items():
         print("Remapping column %s"%field)
-        data.replace({field:values},inplace=True)
+        data.replace({field:values}, inplace=True)
     print("Completed")
 
     return data
