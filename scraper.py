@@ -1,9 +1,12 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Jun 26 11:16:10 2020
+@author: Sharmin Shabnam
+"""
+
 import pandas as pd
 from selenium import webdriver
 import re
-
-
-
 
 def goodreads_login(driver, username, password):
     """ Access Goodreads
@@ -300,7 +303,7 @@ def collect_all_books_data(driver, user_book_list):
 
 def main():
 
-    DRIVER_PATH = 'C:/Users/ShabnamS/Google Drive/abc/chromedriver/chromedriver.exe'
+    DRIVER_PATH = 'chromedriver.exe'
 
     # Goodreads login credentials
     USERNAME = 'youremail'
